@@ -1,0 +1,9 @@
+<uwsgi>
+	<pythonpath>/var/www/sim/env/</pythonpath>
+	<module>sim.py</module>
+	<callable>app</callable>
+	<socket>/tmp/uwsgi.sock</socket>
+	<master/>
+	<processes>4</processes>
+	<memory-report/>
+</uwsgi>
