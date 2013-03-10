@@ -29,12 +29,12 @@
     <div class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="/">
+          <a class="brand" href="{{ url_for('home') }}">
             Sim.cy
           </a>
           <ul class="nav">
             <li>
-              <a href="/about">
+              <a href="{{ url_for('about') }}">
                 About
               </a>
             </li>
