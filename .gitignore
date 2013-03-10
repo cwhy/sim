@@ -1,3 +1,7 @@
+# For server setup
+*.xml
+
+
 *.py[cod]
 
 # C extensions
